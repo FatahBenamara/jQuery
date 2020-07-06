@@ -1,0 +1,7 @@
+.coords{
+    border-collapse: collapse;
+}
+
+.coords td{
+    border: 1px solid black;
+}
