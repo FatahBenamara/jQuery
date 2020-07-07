@@ -1,0 +1,2 @@
+$("p").html("ceci est un paragraphe de couleur blanc et de taille 50").css("color","white").css("font-size",50).css("margin","120px 0").css("text-align","center");
+$("p:nth-child(1)").html("ceci est un paragraphe de couleur jaune et de taille 50").css("color","yellow").css("font-size",50);
