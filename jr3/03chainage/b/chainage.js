@@ -1,7 +1,10 @@
 
 /* HEADER */
-$("header").html("  <img src=\" https://via.placeholder.com/200x80\" alt=\"\">")
-            .css("text-align","center")
+$("header").html("<img src=\" https://via.placeholder.com/200x80\" alt=\"\">")
+
+for (let i = 0; i < 4; i++) {
+    $("li").eq(i).html("élèment"+(i+1));
+}
 
 /* SECTION */
 let image ="";
