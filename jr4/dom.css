@@ -1,0 +1,13 @@
+.menu{
+    display:flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 10px;
+}
+
+/* mettre les elements les uns au coté des autres */
+header{
+    display: flex;
+}
