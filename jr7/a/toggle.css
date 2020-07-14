@@ -1,0 +1,12 @@
+body{
+    width: 90%;
+    margin: 20px;
+}
+.container{
+    display: flex;
+}
+.container div{
+    width: 45%;
+    height: 100px;
+    border: 10px solid;
+}
