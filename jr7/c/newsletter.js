@@ -7,14 +7,16 @@ $(".envoyer").click(function(e){
      e.preventDefault(); 
    
     let email = $(".email").val().trim();
-    let reponse ="Votre email est " + email +" merci pour votre réponse";
+    let reponse ="Votre email est: " + email +" merci pour votre réponse";
 
     if (email!="") {
         
-        $(".message").html(reponse).removeClass("error");
+        $(".message").html(reponse);
+        $(".email").removeClass("error").val(""); //.val("") vider le champ mail
 
     }else{
-       $(".message").html("veuillez saisir votre email").addClass("error");
+       $(".message").html("veuillez saisir votre email");
+       $(".email").addClass("error").val("");
     }
 
 });

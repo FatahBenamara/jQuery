@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(90deg,#ede682,#f3ecc2);
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+section{
+display: grid;
+ grid-template-columns: 1fr 2fr; 
+grid-gap: 10px; 
+}
+footer{
+    text-align: center;
+}
+input[type="text"]{
+    padding: 10px;
+}
+.message{
+    color: green ;
+}
+.error{
+    border: 2px solid red;
+    
+}
