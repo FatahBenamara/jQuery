@@ -1,4 +1,4 @@
-$("header li").eq(1).after("<li>Nous contacter</li>");
+$("header li").eq(1).after("<li> Nous contacter </li>");
 $("header li").eq(2).after("<img src=\" https://via.placeholder.com/150x50\" alt=\"\" >");
 
 $("section h1").after("<hr>");
