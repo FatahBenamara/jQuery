@@ -6,5 +6,5 @@ for (let i = 0; i < 11; i++) {
     present+= " <p> Projet"+(i+1)+"</p>";
     present+= " </div>";
     
-   $("section").html(present); 
+   $("section").html(present).addClass("presentation"); 
 };

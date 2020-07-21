@@ -1,7 +1,10 @@
 let formulaire="";
 
+formulaire+= "<p>Pour nous contacter:<p>";
 formulaire+= "<form>";
+formulaire+= "<label>Votre nom</label>";
 formulaire+= " <input   class=\"nom\">";
+formulaire+= "<label>Votre demande</label>";
 formulaire+= "<textarea   class=\"commentaire\"></textarea> ";
 formulaire+= " <input type=\"submit\"   class=\"envoyer\">";
 formulaire+= "</form>";
@@ -9,7 +12,7 @@ formulaire+= "<p class=\"message\"></p>";
 
 
 
-$("section").html(formulaire);
+$("section").html(formulaire).addClass("contact");
  
 $(".envoyer").click(function(e){
 

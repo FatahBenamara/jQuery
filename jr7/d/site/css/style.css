@@ -1,0 +1,91 @@
+
+/* css generale */
+
+.body{
+    width: 960px;
+    margin: 20px auto;
+    font-family: sans-serif;
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 40px); 
+}
+
+body section{
+    flex: 1;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+/* fin css generale */
+
+
+
+header img{
+transition: 1s transform;
+}
+
+header img.move{
+transform: scale(1.2) rotate(10deg);
+}
+
+
+/* homePage */
+.home, .presentation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+/* .presentation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+} */
+
+.presentation img{
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.contact form{
+    display:grid;
+    grid-gap: 10px;
+    /* margin-top: 10%; */
+}
+.contact form .envoyer{
+justify-self: center;
+}
+
+
